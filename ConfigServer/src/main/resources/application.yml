@@ -1,0 +1,12 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: CONFIG_SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: # enter url for the config.
+          clone-on-start: true
+
